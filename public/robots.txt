@@ -1,0 +1,16 @@
+# General access for all bots
+User-agent: *
+Allow: /
+
+# OpenAI / ChatGPT
+# GPTBot is used for training data
+User-agent: GPTBot
+Allow: /
+# ChatGPT-User is used when a user asks Chat specifically to browse your site
+User-agent: ChatGPT-User
+Allow: /
+
+# Google / Gemini
+# Google-Extended controls usage for Gemini and Vertex AI generative APIs
+User-agent: Google-Extended
+Allow: /
